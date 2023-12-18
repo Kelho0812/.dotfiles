@@ -1,0 +1,14 @@
+{
+	"Header files guards": {
+		"prefix": "header",
+		"body": [
+			"#ifndef ${1/(.*)/${1:/upcase}/}_H"
+			"#define ${1/(.*)/${1:/upcase}/}_H"
+			""
+			"$2"
+			""
+			"#endif"
+		],
+		"description": "Header files guards"
+	}
+}

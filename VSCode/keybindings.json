@@ -1,0 +1,31 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+	{
+		"key": "ctrl+insert",
+		"command": "editor.debug.action.selectionToWatch"
+	},
+	{
+		"key": "ctrl+shift+g ctrl+c",
+		"command": "git.commitAll"
+	},
+	{
+		"key": "ctrl+shift+g ctrl+p",
+		"command": "git.push"
+	},
+	{
+		"key": "ctrl+shift+g ctrl+i",
+		"command": "git.ignore"
+	},
+	{
+		"key": "ctrl+shift+g ctrl+a",
+		"command": "git.stageAll"
+	},
+	{
+		"key": "ctrl+n ctrl+n",
+		"command": "explorer.newFile"
+	},
+	{
+		"key": "ctrl+n ctrl+f",
+		"command": "explorer.newFolder"
+	}
+]

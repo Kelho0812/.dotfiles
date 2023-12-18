@@ -1,0 +1,32 @@
+{
+	"42header.email": "jorteixe@student.42porto.fr",
+    "42header.username": "jorteixe",
+    "editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"files.autoSave": "afterDelay",
+	"github.copilot.enable": {
+		"*": false,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false
+	},
+	"editor.renderWhitespace": "boundary",
+	"workbench.colorTheme": "Dracula",
+	"[c]": {
+		"editor.defaultFormatter": "keyhr.42-c-format"
+	},
+	"git.confirmSync": false,
+	"C_Cpp.default.compilerPath": "/usr/bin/gcc",
+	"[cpp]": {
+		"editor.defaultFormatter": "keyhr.42-c-format"
+	},
+	"files.associations": {
+		"*.h": "c"
+	},
+	"extensions.experimental.affinity": {
+		"asvetliakov.vscode-neovim": 1
+	},
+	"editor.minimap.enabled": false,
+	"window.menuBarVisibility": "compact",
+	"window.zoomLevel": 1
+}

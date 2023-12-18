@@ -1,0 +1,44 @@
+{
+	"Basic boilerplate for header files":
+	{
+		"prefix" : "boilerplate",
+		"body" : [
+			"#ifndef ${1/(.*)/${1:/upcase}/}_H",
+			"# define ${1/(.*)/${1:/upcase}/}_H", 
+			"\n"
+			"${4://Your code}"
+			"\n"
+			"#endif"
+		],
+			"description" : "to produce the main snippet for cpp"
+	}
+	"Lorem Ipsum":
+	{
+		"prefix" : "lorem",
+		"body": [
+		  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit neque id molestie imperdiet. Suspendisse vulputate ligula risus, sed tincidunt urna aliquam quis. Curabitur lacus lacus, venenatis quis massa eget, congue egestas arcu. Phasellus imperdiet purus sit amet dui semper consequat. Praesent a ante lacus. Maecenas turpis turpis, sodales eu sem interdum, sollicitudin sollicitudin est. Nulla feugiat neque id felis mattis, id gravida odio dictum. Cras finibus luctus risus, nec ornare sapien. Fusce condimentum urna in blandit maximus. Vestibulum ut justo tempus, ullamcorper elit nec, elementum nulla. Mauris ac augue nulla.",
+		  "",
+		  "Integer convallis enim mauris, eu pellentesque sem consectetur sit amet. Vivamus et lobortis odio. Donec sed nulla porta, tristique lectus quis, tempus erat. Morbi ante augue, accumsan id bibendum eu, consequat a erat. Morbi porta neque et nisi egestas, ut elementum ex efficitur. Nunc ut ex sit amet nisi tristique mollis id sed felis. Cras tristique molestie tincidunt. Ut venenatis tincidunt gravida. Nullam auctor mi tincidunt, efficitur augue at, dignissim ipsum. Sed aliquam tortor quis accumsan ornare. Vivamus leo nisi, condimentum efficitur diam ac, blandit ultricies ligula. Etiam volutpat feugiat sem, quis cursus felis hendrerit at.",
+		  "",
+		  "Praesent commodo tincidunt justo, vel ullamcorper lacus pretium id. Morbi ornare nibh erat, rhoncus laoreet mauris ultrices at. Cras vitae nibh blandit, sollicitudin ante iaculis, rhoncus eros. Nullam molestie commodo dui a lobortis. Aliquam vehicula fringilla elit a aliquet. Nam vestibulum ex cursus purus pulvinar fermentum. Nulla tincidunt ligula a purus tempus, in convallis erat varius. Donec elementum porttitor lobortis. Praesent aliquam metus erat, ut egestas purus tristique vel. Curabitur quis orci rhoncus, venenatis neque in, facilisis elit.",
+		  "",
+		  "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce cursus consequat purus sed elementum. Phasellus justo arcu, dignissim id enim at, molestie pellentesque urna. Ut sed erat fermentum, posuere neque non, facilisis ante. Nunc ullamcorper, lorem eu egestas commodo, lacus eros egestas metus, vel ornare ante ex vel diam. Etiam nec est ante. Nunc eu massa scelerisque, efficitur turpis condimentum, finibus nulla. Maecenas tempor eget risus nec varius. Nunc consectetur dapibus lorem, volutpat porttitor urna dictum ac. Fusce eget molestie ipsum. Sed scelerisque finibus odio non luctus.",
+		  "",
+		  "Integer a est id nisl dapibus consequat a a nunc. Nullam a pretium orci. Nam id risus nisi. Curabitur magna dolor, interdum a interdum id, tristique quis lectus. Duis bibendum eros vel arcu iaculis, vitae faucibus leo blandit. Vivamus at malesuada turpis, at ornare justo. Donec condimentum condimentum nibh, accumsan congue sem. Fusce nec tellus eu mauris fermentum varius id eget dui. Donec ut accumsan lorem. "
+		],
+		"description": "Lorem Ipsum"
+	}
+	"Main (void)":
+	{
+		"prefix" : "mainv",
+		"body" : [
+
+			"int main(void)"
+			"{"
+			"	${1://Your code}"
+			"	return 0;"
+			"}"
+		],
+			"description" : "to produce the main snippet for cpp"
+	}
+}
